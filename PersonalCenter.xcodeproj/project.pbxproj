@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E82962A1C437861007F9E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8296291C437861007F9E80 /* main.m */; };
+		8E82962D1C437861007F9E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82962C1C437861007F9E80 /* AppDelegate.m */; };
+		8E8296301C437861007F9E80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82962F1C437861007F9E80 /* ViewController.m */; };
+		8E8296331C437861007F9E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8296311C437861007F9E80 /* Main.storyboard */; };
+		8E8296351C437861007F9E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8296341C437861007F9E80 /* Assets.xcassets */; };
+		8E8296381C437861007F9E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8296361C437861007F9E80 /* LaunchScreen.storyboard */; };
+		8E8296431C437861007F9E80 /* PersonalCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8296421C437861007F9E80 /* PersonalCenterTests.m */; };
+		8E82964E1C437861007F9E80 /* PersonalCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82964D1C437861007F9E80 /* PersonalCenterUITests.m */; };
+		8E82965D1C437912007F9E80 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82965C1C437912007F9E80 /* PersonalCenterViewController.m */; };
+		8E8296601C437E21007F9E80 /* PersonalCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82965F1C437E21007F9E80 /* PersonalCenterCell.m */; };
+		8E8296631C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8296621C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.m */; };
+		8E8296661C43A344007F9E80 /* PersonalCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8296651C43A344007F9E80 /* PersonalCenterHeaderView.m */; };
+		8E8296691C43A39C007F9E80 /* PersonalCenterFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8296681C43A39C007F9E80 /* PersonalCenterFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E82963F1C437861007F9E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E82961D1C437861007F9E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8296241C437861007F9E80;
+			remoteInfo = PersonalCenter;
+		};
+		8E82964A1C437861007F9E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E82961D1C437861007F9E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8296241C437861007F9E80;
+			remoteInfo = PersonalCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E8296251C437861007F9E80 /* PersonalCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8296291C437861007F9E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E82962B1C437861007F9E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E82962C1C437861007F9E80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E82962E1C437861007F9E80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E82962F1C437861007F9E80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E8296321C437861007F9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8296341C437861007F9E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8296371C437861007F9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E8296391C437861007F9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E82963E1C437861007F9E80 /* PersonalCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8296421C437861007F9E80 /* PersonalCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTests.m; sourceTree = "<group>"; };
+		8E8296441C437861007F9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8296491C437861007F9E80 /* PersonalCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E82964D1C437861007F9E80 /* PersonalCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterUITests.m; sourceTree = "<group>"; };
+		8E82964F1C437861007F9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E82965B1C437912007F9E80 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		8E82965C1C437912007F9E80 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		8E82965E1C437E21007F9E80 /* PersonalCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterCell.h; sourceTree = "<group>"; };
+		8E82965F1C437E21007F9E80 /* PersonalCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterCell.m; sourceTree = "<group>"; };
+		8E8296611C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterSectionHeaderView.h; sourceTree = "<group>"; };
+		8E8296621C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterSectionHeaderView.m; sourceTree = "<group>"; };
+		8E8296641C43A344007F9E80 /* PersonalCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterHeaderView.h; sourceTree = "<group>"; };
+		8E8296651C43A344007F9E80 /* PersonalCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterHeaderView.m; sourceTree = "<group>"; };
+		8E8296671C43A39C007F9E80 /* PersonalCenterFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterFooterView.h; sourceTree = "<group>"; };
+		8E8296681C43A39C007F9E80 /* PersonalCenterFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8296221C437861007F9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E82963B1C437861007F9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8296461C437861007F9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E82961C1C437861007F9E80 = {
+			isa = PBXGroup;
+			children = (
+				8E8296271C437861007F9E80 /* PersonalCenter */,
+				8E8296411C437861007F9E80 /* PersonalCenterTests */,
+				8E82964C1C437861007F9E80 /* PersonalCenterUITests */,
+				8E8296261C437861007F9E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8296261C437861007F9E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8296251C437861007F9E80 /* PersonalCenter.app */,
+				8E82963E1C437861007F9E80 /* PersonalCenterTests.xctest */,
+				8E8296491C437861007F9E80 /* PersonalCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E8296271C437861007F9E80 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8E82962B1C437861007F9E80 /* AppDelegate.h */,
+				8E82962C1C437861007F9E80 /* AppDelegate.m */,
+				8E82962E1C437861007F9E80 /* ViewController.h */,
+				8E82962F1C437861007F9E80 /* ViewController.m */,
+				8E82965B1C437912007F9E80 /* PersonalCenterViewController.h */,
+				8E82965C1C437912007F9E80 /* PersonalCenterViewController.m */,
+				8E82965E1C437E21007F9E80 /* PersonalCenterCell.h */,
+				8E82965F1C437E21007F9E80 /* PersonalCenterCell.m */,
+				8E8296611C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.h */,
+				8E8296621C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.m */,
+				8E8296641C43A344007F9E80 /* PersonalCenterHeaderView.h */,
+				8E8296651C43A344007F9E80 /* PersonalCenterHeaderView.m */,
+				8E8296671C43A39C007F9E80 /* PersonalCenterFooterView.h */,
+				8E8296681C43A39C007F9E80 /* PersonalCenterFooterView.m */,
+				8E8296311C437861007F9E80 /* Main.storyboard */,
+				8E8296341C437861007F9E80 /* Assets.xcassets */,
+				8E8296361C437861007F9E80 /* LaunchScreen.storyboard */,
+				8E8296391C437861007F9E80 /* Info.plist */,
+				8E8296281C437861007F9E80 /* Supporting Files */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		8E8296281C437861007F9E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8296291C437861007F9E80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8296411C437861007F9E80 /* PersonalCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8296421C437861007F9E80 /* PersonalCenterTests.m */,
+				8E8296441C437861007F9E80 /* Info.plist */,
+			);
+			path = PersonalCenterTests;
+			sourceTree = "<group>";
+		};
+		8E82964C1C437861007F9E80 /* PersonalCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E82964D1C437861007F9E80 /* PersonalCenterUITests.m */,
+				8E82964F1C437861007F9E80 /* Info.plist */,
+			);
+			path = PersonalCenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E8296241C437861007F9E80 /* PersonalCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8296521C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenter" */;
+			buildPhases = (
+				8E8296211C437861007F9E80 /* Sources */,
+				8E8296221C437861007F9E80 /* Frameworks */,
+				8E8296231C437861007F9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalCenter;
+			productName = PersonalCenter;
+			productReference = 8E8296251C437861007F9E80 /* PersonalCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E82963D1C437861007F9E80 /* PersonalCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8296551C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenterTests" */;
+			buildPhases = (
+				8E82963A1C437861007F9E80 /* Sources */,
+				8E82963B1C437861007F9E80 /* Frameworks */,
+				8E82963C1C437861007F9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8296401C437861007F9E80 /* PBXTargetDependency */,
+			);
+			name = PersonalCenterTests;
+			productName = PersonalCenterTests;
+			productReference = 8E82963E1C437861007F9E80 /* PersonalCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E8296481C437861007F9E80 /* PersonalCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8296581C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenterUITests" */;
+			buildPhases = (
+				8E8296451C437861007F9E80 /* Sources */,
+				8E8296461C437861007F9E80 /* Frameworks */,
+				8E8296471C437861007F9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E82964B1C437861007F9E80 /* PBXTargetDependency */,
+			);
+			name = PersonalCenterUITests;
+			productName = PersonalCenterUITests;
+			productReference = 8E8296491C437861007F9E80 /* PersonalCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E82961D1C437861007F9E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ColorPen;
+				TargetAttributes = {
+					8E8296241C437861007F9E80 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E82963D1C437861007F9E80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E8296241C437861007F9E80;
+					};
+					8E8296481C437861007F9E80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E8296241C437861007F9E80;
+					};
+				};
+			};
+			buildConfigurationList = 8E8296201C437861007F9E80 /* Build configuration list for PBXProject "PersonalCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E82961C1C437861007F9E80;
+			productRefGroup = 8E8296261C437861007F9E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8296241C437861007F9E80 /* PersonalCenter */,
+				8E82963D1C437861007F9E80 /* PersonalCenterTests */,
+				8E8296481C437861007F9E80 /* PersonalCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E8296231C437861007F9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8296381C437861007F9E80 /* LaunchScreen.storyboard in Resources */,
+				8E8296351C437861007F9E80 /* Assets.xcassets in Resources */,
+				8E8296331C437861007F9E80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E82963C1C437861007F9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8296471C437861007F9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8296211C437861007F9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8296301C437861007F9E80 /* ViewController.m in Sources */,
+				8E82965D1C437912007F9E80 /* PersonalCenterViewController.m in Sources */,
+				8E82962D1C437861007F9E80 /* AppDelegate.m in Sources */,
+				8E8296601C437E21007F9E80 /* PersonalCenterCell.m in Sources */,
+				8E8296691C43A39C007F9E80 /* PersonalCenterFooterView.m in Sources */,
+				8E8296631C43A1D9007F9E80 /* PersonalCenterSectionHeaderView.m in Sources */,
+				8E8296661C43A344007F9E80 /* PersonalCenterHeaderView.m in Sources */,
+				8E82962A1C437861007F9E80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E82963A1C437861007F9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8296431C437861007F9E80 /* PersonalCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8296451C437861007F9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E82964E1C437861007F9E80 /* PersonalCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E8296401C437861007F9E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8296241C437861007F9E80 /* PersonalCenter */;
+			targetProxy = 8E82963F1C437861007F9E80 /* PBXContainerItemProxy */;
+		};
+		8E82964B1C437861007F9E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8296241C437861007F9E80 /* PersonalCenter */;
+			targetProxy = 8E82964A1C437861007F9E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E8296311C437861007F9E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8296321C437861007F9E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E8296361C437861007F9E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8296371C437861007F9E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E8296501C437861007F9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E8296511C437861007F9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E8296531C437861007F9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E8296541C437861007F9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E8296561C437861007F9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonalCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalCenter.app/PersonalCenter";
+			};
+			name = Debug;
+		};
+		8E8296571C437861007F9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonalCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalCenter.app/PersonalCenter";
+			};
+			name = Release;
+		};
+		8E8296591C437861007F9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonalCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonalCenter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E82965A1C437861007F9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonalCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7color.PersonalCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonalCenter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8296201C437861007F9E80 /* Build configuration list for PBXProject "PersonalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8296501C437861007F9E80 /* Debug */,
+				8E8296511C437861007F9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8296521C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8296531C437861007F9E80 /* Debug */,
+				8E8296541C437861007F9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E8296551C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8296561C437861007F9E80 /* Debug */,
+				8E8296571C437861007F9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E8296581C437861007F9E80 /* Build configuration list for PBXNativeTarget "PersonalCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8296591C437861007F9E80 /* Debug */,
+				8E82965A1C437861007F9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E82961D1C437861007F9E80 /* Project object */;
+}
